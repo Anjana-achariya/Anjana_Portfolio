@@ -93,10 +93,8 @@ const Projects = () => {
       title: "AI Summarizer & Multi-Modal Extractor",
       description: [
         "Built a multimodal AI summarizer that processes PDFs, text, audio, and YouTube videos using FastAPI + React.",
-        "Used GPT-4o-mini for summarization and Whisper (gpt-4o-transcribe) for high-accuracy speech-to-text with
-automatic YouTube audio extraction.",
-        " Deployed on Render with a fast, interactive UI featuring file uploads, drag-drop, and formatted summary
-output",
+        "Used GPT-4o-mini for summarization and Whisper (gpt-4o-transcribe) for high-accuracy speech-to-text with automatic YouTube audio extraction.",
+        "Deployed on Render with a fast, interactive UI featuring file uploads, drag-drop, and formatted summary output",
         '<a href="https://summarizer-frontend-fw54.onrender.com/" target="_blank" rel="noopener noreferrer" class="text-blue-400 underline">View Project</a>',
       ],
     },
@@ -213,4 +211,5 @@ output",
 };
 
 export default Projects;
+
 
