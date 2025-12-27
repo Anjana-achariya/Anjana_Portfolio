@@ -212,13 +212,19 @@ const Projects = () => {
               }`}
             >
               <div className="px-4 py-3 flex flex-col gap-2 text-blue-100">
-                {project.description.map((line, i) => (
+                /* {project.description.map((line, i) => (
                   <p
                     key={i}
                     dangerouslySetInnerHTML={{ __html: line }}
                     className="text-blue-100"
                   />
-                ))}
+                ))} */
+                {project.description.map((line, i) => (
+  <p key={i} className="text-blue-100">
+    {line}
+  </p>
+))}
+
               </div>
             </div>
           </div>
@@ -229,6 +235,7 @@ const Projects = () => {
 };
 
 export default Projects;
+
 
 
 
