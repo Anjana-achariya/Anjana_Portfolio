@@ -68,6 +68,17 @@ const TypingParagraph = ({ text, star }) => {
 const Projects = () => {
   const projectsData = [
     {
+      title: "VyzEraX – AI-Powered Data Analysis & Insight Platform",
+      description: [
+        "Built a full-stack platform converting raw datasets into dashboards and AI-generated executive insights",
+        "Integrated statistical profiling with LLM-based narrative insights using FastAPI and React",
+        
+        '<a href="https://vyzerax.vercel.app/" target="_blank" rel="noopener noreferrer" class="text-blue-400 underline">View Project</a>',
+      ],
+    },
+
+    
+    {
       title: "Question Generator & Summarizer",
       description: [
         "Built an AI-driven tool that converts PDFs, DOCX, and text into summaries and auto-generated MCQs (single/multiple-choice, true–false, subjective).",
@@ -211,5 +222,6 @@ const Projects = () => {
 };
 
 export default Projects;
+
 
 
