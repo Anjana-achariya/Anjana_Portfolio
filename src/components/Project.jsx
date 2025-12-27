@@ -70,11 +70,18 @@ const Projects = () => {
     {
       title: "VyzEraX – AI-Powered Data Analysis & Insight Platform",
       description: [
-        "Built a full-stack platform converting raw datasets into dashboards and AI-generated executive insights",
-        "Integrated statistical profiling with LLM-based narrative insights using FastAPI and React",
-        
-        '<a href="https://vyzerax.vercel.app/" target="_blank" rel="noopener noreferrer" class="text-blue-400 underline">View Project</a>',
-      ],
+  "Built a full-stack platform converting raw datasets into dashboards and AI-generated executive insights",
+  "Integrated statistical profiling with LLM-based narrative insights using FastAPI and React",
+  <a
+    href="https://vyzerax.vercel.app/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-blue-400 underline"
+  >
+    View Project
+  </a>,
+],
+
     },
 
     
@@ -222,6 +229,7 @@ const Projects = () => {
 };
 
 export default Projects;
+
 
 
 
